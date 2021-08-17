@@ -11,7 +11,7 @@ closeBtn.addEventListener("click", closeModal);
 function openModal() {
   modalWrapper.style.opacity = 1;
   modalWrapper.style.visibility = "visible";
-  modal.style.transitionDelay = `${1}s`;
+  modal.style.transitionDelay = `${0.8}s`;
   modal.style.top = `${25}%`;
   modal.style.opacity = 1;
 }
@@ -19,7 +19,7 @@ function closeModal() {
   modalWrapper.style.opacity = 0;
   modalWrapper.style.visibility = "hidden";
   modal.style.transitionDelay = 0;
-  modalWrapper.style.transitionDelay = `${1}s`;
+  modalWrapper.style.transitionDelay = `${1.5}s`;
   modal.style.top = `${-100}%`;
   modal.style.opacity = 0;
 }
