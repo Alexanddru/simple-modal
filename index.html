@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>Modal mini-project</title>
+  </head>
+  <body>
+    <div class="navigation">
+      <div class="container d-flex">
+        <div class="button btn btn--open">Open</div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-wrapper">
+      <div class="modal">
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="modal__image-container">
+              <img
+                src="/images/background.jpg"
+                alt="Background image of patterns"
+                class="modal__image"
+              />
+            </div>
+          </div>
+          <div class="col-3-of-4">
+            <div class="modal__header">
+              <h2 class="heading-secondary modal__title">Modal title text</h2>
+            </div>
+            <div class="modal__body">
+              <h3 class="heading-tertiary modal__content--title">
+                Title representative of what's below
+              </h3>
+              <p class="modal__content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Fugiat, eligendi cupiditate. Esse, repellat maxime labore et
+                laboriosam autem temporibus odio?
+              </p>
+            </div>
+            <div class="modal__footer">
+              <button class="btn btn--close">Close</button>
+              <!-- <button class="btn btn--send">Submit</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Sciprts -->
+    <script src="app.js"></script>
+  </body>
+</html>
